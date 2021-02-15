@@ -1,13 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+}
+.home {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(59, 62, 78, 0.8),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("./images/david-nicolai-ygchoNbpZIU-unsplash.jpg");
+  padding: 1rem 10rem 3rem 10rem;
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+  background-color: #3b3e4e;
+  color: rgb(255, 255, 255);
+  height: 100vh;
+}
+.about {
+  background-color: #252734;
+  color: #fff;
+  padding: 4rem 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.projects {
+  padding: 4rem 0;
+  background-color: #333646;
+  height: 100vh;
+  color: rgb(255, 255, 255);
+  font-family: "Poppins", sans-serif;
+}
+
+@media (max-width: 991px) {
+  .home,
+  .about,
+  .projects {
+    padding: 0 1rem;
+    transition: all 500ms;
+  }
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-10rem);
+  }
+  80% {
+    transform: translateX(1rem);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(10rem);
+  }
+  80% {
+    transform: translateX(-1rem);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+.project-main-item {
+  height: 19rem;
+  background-color: #3b3e4e;
+  width: 100%;
 }
