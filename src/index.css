@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 body {
 }
@@ -12,7 +11,6 @@ body {
   padding: 1rem 10rem 3rem 10rem;
   background-size: cover;
   background-position: center;
-  background-size: cover;
   background-color: #3b3e4e;
   color: rgb(255, 255, 255);
   height: 100vh;
@@ -26,10 +24,28 @@ body {
 .projects {
   padding: 4rem 0;
   background-color: #333646;
-  height: 100vh;
   color: rgb(255, 255, 255);
   font-family: "Poppins", sans-serif;
 }
+.project-lang{
+  margin-top: 2rem;
+}
+
+.skills{
+  height: 100%;
+  background-color: #252734;
+  color: rgb(255, 255, 255);
+  padding: 4rem 0;
+
+}
+.contact{
+  height: 100%;
+  padding: 2rem 0;
+  background-color: #333646;
+  color: rgb(255, 255, 255);
+  padding: 4rem 0;
+}
+
 
 @media (max-width: 991px) {
   .home,
@@ -66,8 +82,3 @@ body {
   }
 }
 
-.project-main-item {
-  height: 19rem;
-  background-color: #3b3e4e;
-  width: 100%;
-}
