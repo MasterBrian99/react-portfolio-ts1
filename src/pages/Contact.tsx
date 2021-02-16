@@ -14,16 +14,16 @@ const Contact = () => {
             <Container>
                 <Main>
                     <div className="d-flex align-items-center flex-column">
-                        <H2>My name</H2>
+                        <H2>Pasindu Pramodaya</H2>
                         <h3>My Email</h3>
-                        <H3>Lorem ipsum dolor.@gmail.com</H3>
+                        <H3>example@gmail.com</H3>
 
                     </div>
                         <div className="d-flex justify-content-center" >
                             <Icon><RiFacebookCircleFill/>  </Icon>
                             <Icon><FaDiscord/>  </Icon>
-                            <Icon><AiOutlineTwitter/>  </Icon>
-                            <Icon><AiFillLinkedin/>  </Icon>
+                            <Icon  href={"https://twitter.com/Master_br1an"} target="_blank"><AiOutlineTwitter/>  </Icon>
+                            <Icon   href={"https://www.linkedin.com/in/pasindu-p-konghawaththa-3808861a0/"} target="_blank"><AiFillLinkedin/>  </Icon>
 
                         </div>
                 </Main>

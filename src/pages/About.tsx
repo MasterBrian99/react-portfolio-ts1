@@ -8,16 +8,16 @@ AOS.init();
 const About = () => {
 
     return (
-        <section className={'about'}>
+        <section className={'about '} >
             <Main>
 
                 <H3>About Me</H3>
                 <div className="row">
                     <div className="col-lg-5  d-flex align-items-center">
-                        <H1> <span>Pasindu </span>Pramodaya</H1>
+                        <H1 data-aos="fade-up" data-aos-delay="100"  data-aos-duration="800"  data-aos-easing="ease-in-out"> <span>Pasindu </span>Pramodaya</H1>
                     </div>
                     <div className="col-lg-7">
-                        {aboutParagraph.map(pa => <P key={pa.key}> {pa.aboutP} </P>)}
+                        {aboutParagraph.map(pa => <P key={pa.key} data-aos="fade-up" data-aos-delay="100"  data-aos-duration="800"  data-aos-easing="ease-in-out"> {pa.aboutP} </P>)}
 
                     </div>
                 </div>

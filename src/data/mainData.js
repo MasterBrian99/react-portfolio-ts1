@@ -62,3 +62,30 @@ export const projectSm=[
         lang:[""]
     }
 ]
+
+export const skills = [
+    {
+        skill:"Front End",
+        technologies:["HTML5","JavaScript","React","Vue","Svelte","Bootstrap","Bulma"],
+    },
+    {
+        skill:"Languages",
+        technologies:["golang","Java","Rust","JavaScript","TypeScript","Elixir"],
+    },
+    {
+        skill:"Backend",
+        technologies:["Node","spring","express","Rest"],
+    },
+    {
+        skill:"Ai",
+        technologies:["tensorflow"],
+    },
+    {
+        skill:"Testing",
+        technologies:["puppeteer","selenium"],
+    },
+    {
+        skill:"Other",
+        technologies:["git","linux"],
+    }
+]

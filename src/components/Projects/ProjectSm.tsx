@@ -5,8 +5,8 @@ import {FiExternalLink as ExternalLink} from 'react-icons/fi';
 const ProjectSm = (props:any) => {
     return (
 <>
-            <SmProject>
-                <div className="d-flex justify-content-end">
+            <SmProject data-aos="fade-up" data-aos-delay="100"  data-aos-duration="800"  data-aos-easing="ease-in-out">
+                <div className="d-flex justify-content-end" >
                     <AiFillGithub/>
                     <a href={props.gitLink} target="_blank" rel="noreferrer"><FiExternalLink/></a>
                 </div>

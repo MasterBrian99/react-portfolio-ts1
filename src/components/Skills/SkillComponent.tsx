@@ -2,16 +2,21 @@ import React from 'react';
 import styled from 'styled-components';
 import {SiMaterialdesignicons as MaterialD} from 'react-icons/si';
 
-const SkillComponent = () => {
-    return (
-        <SkillDiv className="d-flex flex-column">
 
-                <H1 className="text-center"> <SiMaterialdesignicons/>   Languages</H1>
+
+
+
+const SkillComponent = (props:any) => {
+    return (
+        <SkillDiv className="d-flex flex-column" data-aos="fade-up" data-aos-delay="100"  data-aos-duration="800"  data-aos-easing="ease-in-out">
+
+                <H1 className="text-center"> <SiMaterialdesignicons/> {props.skill}</H1>
             <Ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Javascript</li>
-                <li>HTML</li>
+                {props.tech.map((tech:any,index:number) =>
+                    <li key={index}>{tech}</li>
+
+                )}
+
             </Ul>
         </SkillDiv>
     );

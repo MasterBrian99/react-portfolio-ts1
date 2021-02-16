@@ -3,6 +3,7 @@ import {Container} from "react-bootstrap";
 import styled from "styled-components";
 import SkillComponent from "../components/Skills/SkillComponent";
 import HeaderText from "../components/HeaderText";
+import {skills} from "../data/mainData";
 
 const Skills = () => {
     return (
@@ -11,12 +12,12 @@ const Skills = () => {
                 <HeaderText name="Skills"/>
             </Container>
                 <SmProjectContainer className="d-flex justify-content-center  flex-wrap">
-                    <SkillComponent/>
-                    <SkillComponent/>
-                    <SkillComponent/>
-                    <SkillComponent/>
-                    <SkillComponent/>
-                    <SkillComponent/>
+
+                    {skills.map(((s:any,index:number)=>
+                        <SkillComponent key={index} skill={s.skill} tech={s.technologies}/>
+
+                    ))}
+
                 </SmProjectContainer>
         </section>
     );

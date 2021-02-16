@@ -19,7 +19,7 @@ const Projects = () => {
             <SmProjectContainer >
                 <div className="d-flex justify-content-center flex-wrap">
                     {projectSm.map((sm,index)=>
-                        <ProjectSm key={index} gitLink={sm.gitLink} projectName={sm.projectName} description={sm.description} lang={sm.lang}/>
+                        <ProjectSm  key={index} gitLink={sm.gitLink} projectName={sm.projectName} description={sm.description} lang={sm.lang}/>
                     )}
 
 

@@ -2,25 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e81c090-0f88-4be6-b237-288de177a1d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/HeaderText.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Projects/ProjectLang.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Projects/ProjectMain.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Projects/ProjectSm.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Skills/SkillComponent.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/apiData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/data/mainData.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Contact.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Skills.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/about-img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/images/about-imgcrop.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Projects/ProjectMain.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Projects/ProjectMain.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Skills/SkillComponent.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Skills/SkillComponent.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/apiData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/apiData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/mainData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/data/mainData.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Contact.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Projects.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Projects.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Skills.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Skills.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +61,7 @@
       <workItem from="1613421216002" duration="5234000" />
       <workItem from="1613449968453" duration="15696000" />
       <workItem from="1613481114517" duration="4345000" />
-      <workItem from="1613490338785" duration="1452000" />
+      <workItem from="1613490338785" duration="5115000" />
     </task>
     <servers />
   </component>

@@ -4,14 +4,14 @@ import styled from 'styled-components';
 const ProjectMain = (props:any) => {
     return (
 
-        <Main className="project-main-item">
+        <Main className="project-main-item" data-aos="fade-up" data-aos-delay="100"  data-aos-duration="800"  data-aos-easing="ease-in-out">
 
-            <div className="row">
-                <div className="col-lg-5">
+            <div className="row" >
+                <div className="col-lg-5" >
                     <Img src={props.img} alt="img" />
                 </div>
                 <div className="col-lg-7">
-                    <div className="d-flex flex-column">
+                    <div className="d-flex flex-column" >
                         <H2>{props.name}</H2>
                         <P>{props.dis}</P>
                         <DivLang className="d-flex">
