@@ -8,7 +8,7 @@ AOS.init();
 const About = () => {
 
     return (
-        <section className={'about '} >
+        <section className={'about '} id="aboutme" >
             <Main>
 
                 <H3>About Me</H3>

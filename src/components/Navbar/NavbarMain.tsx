@@ -31,11 +31,11 @@ const NavbarMain = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="ml-auto">
-                        <Nav.Link href="#home" style={{ color: '#fff' }} >Home</Nav.Link>
-                        <Nav.Link href="#link" style={{ color: '#fff' }}>About me</Nav.Link>
-                        <Nav.Link href="#link" style={{ color: '#fff' }}>Blog</Nav.Link>
-                        <Nav.Link href="#link" style={{ color: '#fff' }}>My works</Nav.Link>
-                        <Nav.Link href="#link" style={{ color: '#fff' }}>Contact me</Nav.Link>
+                        <Nav.Link href="#home" style={{ color: '#fff',fontSize:'1.5rem',fontWeight:'bold' }} >Home</Nav.Link>
+                        <Nav.Link href="#aboutme" style={{ color: '#fff',fontSize:'1.5rem',fontWeight:'bold'  }}>About me</Nav.Link>
+                        <Nav.Link href="#myprojects" style={{ color: '#fff',fontSize:'1.5rem',fontWeight:'bold'  }}>My Projects</Nav.Link>
+                        <Nav.Link href="#myskils" style={{ color: '#fff',fontSize:'1.5rem',fontWeight:'bold'  }}>Skills</Nav.Link>
+                        <Nav.Link href="#contact" style={{ color: '#fff',fontSize:'1.5rem',fontWeight:'bold'  }}>Contact me</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>

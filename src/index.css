@@ -1,5 +1,6 @@
 
-body {
+html {
+  scroll-behavior: smooth;
 }
 .home {
   background-image: linear-gradient(
@@ -40,7 +41,6 @@ body {
 }
 .contact{
   height: 100%;
-  padding: 2rem 0;
   background-color: #333646;
   color: rgb(255, 255, 255);
   padding: 4rem 0;

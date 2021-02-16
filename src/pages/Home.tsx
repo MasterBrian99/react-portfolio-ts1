@@ -4,7 +4,7 @@ import styled from 'styled-components';
 
 const Home = () => {
     return (
-        <section className='home'>
+        <section className='home' id="home">
             <Container fluid className={'d-flex align-items-center justify-content-center flex-column  h-100'}>
                 <H2>A Designer That Improve The <span>Quality Of Life</span> Of Millions Of People.</H2>
                 <H3>Programmer · Web Developer · UI/UX Designer</H3>

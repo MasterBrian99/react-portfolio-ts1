@@ -7,7 +7,7 @@ import {skills} from "../data/mainData";
 
 const Skills = () => {
     return (
-        <section className="skills">
+        <section className="skills" id="myskils">
             <Container className="d-flex justify-content-center">
                 <HeaderText name="Skills"/>
             </Container>

@@ -8,7 +8,7 @@ import {projectMain,projectSm} from "../data/mainData";
 
 const Projects = () => {
     return (
-        <section className={'projects'}>
+        <section className={'projects'} id="myprojects">
             <Container>
                 <HeaderText name="My Projects"/>
                 {projectMain.map((pa,index)  => <ProjectMain

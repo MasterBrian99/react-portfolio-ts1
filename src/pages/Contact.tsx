@@ -7,7 +7,7 @@ import {AiOutlineTwitter,AiFillLinkedin} from "react-icons/ai";
 import HeaderText from "../components/HeaderText";
 const Contact = () => {
     return (
-        <section className="contact">
+        <section className="contact" id="contact">
             <Container>
                 <HeaderText name="Contact"/>
             </Container>
