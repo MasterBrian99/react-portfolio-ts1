@@ -1,3 +1,3 @@
 ## Simple react portfolio
 
-## [live preview](https://dreamy-euclid-75860a.netlify.app/)
+## [live preview](https://masterbrian99.github.io/react-portfolio-ts1/)
